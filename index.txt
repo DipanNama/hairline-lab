@@ -1,0 +1,6 @@
+# Hairline Lab
+> A library of custom pointer-reactive isometric line animations. Each figure is one self-contained HTML file (SVG, no dependencies).
+Site: https://dipannama.github.io/hairline-lab/
+Source: https://github.com/DipanNama/hairline-lab
+Figures: funnel, rack, layers (figures/<name>.html, source in src/<name>.js)
+Built in the style of hairline by Lucas Markes (MIT): https://github.com/lucasmarkes/hairline

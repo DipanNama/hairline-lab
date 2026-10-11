@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dipannama.github.io/hairline-lab/sitemap.xml
