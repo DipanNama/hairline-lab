@@ -1,1 +1,2 @@
+const fs=require('node:fs');fs.writeFileSync('og.png',Buffer.from(fs.readFileSync('og.png.base64','utf8'),'base64'));
 const f=require('node:fs');f.rmSync('_site',{recursive:true,force:true});f.mkdirSync('_site');for(const p of ['index.html','404.html','style.css','app.js','favicon.svg','og.png','robots.txt','sitemap.xml','llms.txt','index.txt','security.txt','.well-known','figures'])f.cpSync(p,'_site/'+p,{recursive:true});f.writeFileSync('_site/.nojekyll','');console.log('Staged static site');
